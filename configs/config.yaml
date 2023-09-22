@@ -1,0 +1,21 @@
+trainer:
+  name: Trainer
+  num_epochs: 100
+
+dataset:
+  name: Cat_Dog
+  root: data
+  batch_size: 32
+
+model:
+  name: VGG
+  arch: 16
+        #11, 13, 19
+
+optimizer:
+  name: SGD
+  lr: 1.e-2
+
+scheduler:
+  name: StepLR
+  step_size: 10
