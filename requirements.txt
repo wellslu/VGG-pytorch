@@ -1,4 +1,3 @@
-torch>=1.2.0
-torchvision>=0.4.0
-mlconfig
-mlflow
+torch==1.8.1
+torchvision==0.9.1
+
